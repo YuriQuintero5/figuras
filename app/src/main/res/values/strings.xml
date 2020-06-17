@@ -10,6 +10,11 @@
     <string name="btn_calcular">Calcular</string>
     <string name="btn_borrar">Borrar</string>
 
+    <string name="consulta_numero">No</string>
+    <string name="consulta_operacion">Operación</string>
+    <string name="consulta_datos">Datos</string>
+    <string name="consulta_resultado">Resultado</string>
+
     <string name="opcion_area">AREAS</string>
     <string name="opcion_volumen">VOLÚMENES</string>
     <string name="opcion_operaciones">OPERACIONES REALIZADAS</string>

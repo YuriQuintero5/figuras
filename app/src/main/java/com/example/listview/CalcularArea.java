@@ -3,6 +3,7 @@ package com.example.listview;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.graphics.Path;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -36,6 +37,7 @@ public class CalcularArea extends AppCompatActivity {
             lado = Integer.parseInt(sLado);
             Integer area = lado * lado;
             openDialog("CUADRADO", "Area: "+area.toString());
+            Datos.guardar(new Operacion("Area del cuadrado", "Lado: "+sLado,area.toString()));
         }
     }
     public void openDialog(String title, String texto) {

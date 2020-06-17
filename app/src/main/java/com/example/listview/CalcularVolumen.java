@@ -23,8 +23,6 @@ public class CalcularVolumen extends AppCompatActivity {
         txtRadio = findViewById(R.id.txtRadio);
         titulo.setText("ESFERA");
 
-        // getActionBar().setDisplayHomeAsUpEnabled(true);
-
         assert getSupportActionBar() != null;   //null check
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);   //show back button
     }
@@ -34,7 +32,10 @@ public class CalcularVolumen extends AppCompatActivity {
         if(isNumeric(sRadio)) {
             radio = Float.parseFloat(sRadio);
             Double volumen = (4/3) * radio * radio * Math.PI;
-            openDialog("ESFERA", "Volumen: "+volumen.toString());
+
+
+            openDialog("ESFERA", "Volumen: "+String.format("%.2f", volumen));
+            Datos.guardar(new Operacion("Volumen de esfera", "Radio: "+sRadio,String.format("%.2f", volumen)));
         }
     }
     public void openDialog(String title, String texto) {
