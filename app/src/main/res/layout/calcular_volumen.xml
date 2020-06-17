@@ -4,24 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".CalcularArea">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/lblTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/opcion_area"
+        android:text="@string/opcion_volumen"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/txtLado"
+        android:id="@+id/txtRadio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/area_cuadrado_lado"
+        android:hint="@string/volumen_esfera_radio"
         android:inputType="number"
 
         android:textSize="24sp" />

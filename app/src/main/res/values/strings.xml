@@ -5,6 +5,7 @@
     <string name="app_consulta">REALIZADAS</string>
 
     <string name="area_cuadrado_lado">Valor del Lado</string>
+    <string name="volumen_esfera_radio">Valor del radio</string>
 
     <string name="btn_calcular">Calcular</string>
     <string name="btn_borrar">Borrar</string>
@@ -17,6 +18,11 @@
     <string name="area_rectangulo">RECTANGLO</string>
     <string name="area_triangulo">TRIÁNGULO</string>
     <string name="area_circulo">CIRCULO</string>
+
+    <string name="volumen_esfera">ESFERA</string>
+    <string name="volumen_cilindro">CILINDRO</string>
+    <string name="volumen_cono">CONO</string>
+    <string name="volumen_cubo">CUBO</string>
     <string-array name="opciones">
         <item>@string/opcion_area</item>
         <item>@string/opcion_volumen</item>
@@ -27,5 +33,11 @@
         <item>@string/area_rectangulo</item>
         <item>@string/area_triangulo</item>
         <item>@string/area_circulo</item>
+    </string-array>
+    <string-array name="opcionesVolumenes">
+        <item>@string/volumen_esfera</item>
+        <item>@string/volumen_cilindro</item>
+        <item>@string/volumen_cono</item>
+        <item>@string/volumen_cubo</item>
     </string-array>
 </resources>
