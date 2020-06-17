@@ -4,12 +4,28 @@
     <string name="app_volumen">VOLÚMENES</string>
     <string name="app_consulta">REALIZADAS</string>
 
+    <string name="area_cuadrado_lado">Valor del Lado</string>
+
+    <string name="btn_calcular">Calcular</string>
+    <string name="btn_borrar">Borrar</string>
+
     <string name="opcion_area">AREAS</string>
     <string name="opcion_volumen">VOLÚMENES</string>
     <string name="opcion_operaciones">OPERACIONES REALIZADAS</string>
+
+    <string name="area_cuadrado">CUADRADO</string>
+    <string name="area_rectangulo">RECTANGLO</string>
+    <string name="area_triangulo">TRIÁNGULO</string>
+    <string name="area_circulo">CIRCULO</string>
     <string-array name="opciones">
         <item>@string/opcion_area</item>
         <item>@string/opcion_volumen</item>
         <item>@string/opcion_operaciones</item>
+    </string-array>
+    <string-array name="opcionesAreas">
+        <item>@string/area_cuadrado</item>
+        <item>@string/area_rectangulo</item>
+        <item>@string/area_triangulo</item>
+        <item>@string/area_circulo</item>
     </string-array>
 </resources>

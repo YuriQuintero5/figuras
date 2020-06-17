@@ -16,6 +16,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity android:name=".CalcularArea" android:parentActivityName=".OpcionArea" android:label="@string/app_area"></activity>
+
         <activity android:name=".OpcionVolumen" android:parentActivityName=".MainActivity" android:label="@string/app_volumen"></activity>
         <activity android:name=".OpcionConsulta" android:parentActivityName=".MainActivity" android:label="@string/app_consulta"></activity>
         <activity android:name=".MainActivity">
