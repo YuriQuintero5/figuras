@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OPCIONES</string>
+    <string name="app_area">AREAS</string>
+    <string name="app_volumen">VOLÚMENES</string>
+    <string name="app_consulta">REALIZADAS</string>
+
+    <string name="opcion_area">AREAS</string>
+    <string name="opcion_volumen">VOLÚMENES</string>
+    <string name="opcion_operaciones">OPERACIONES REALIZADAS</string>
+    <string-array name="opciones">
+        <item>@string/opcion_area</item>
+        <item>@string/opcion_volumen</item>
+        <item>@string/opcion_operaciones</item>
+    </string-array>
+</resources>
